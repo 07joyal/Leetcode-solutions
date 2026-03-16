@@ -23,3 +23,9 @@ A collection of my LeetCode problem solutions written in C++. This repository do
    Add the new element entering the window.
  - Update max_sum whenever a larger sum is found.
  - At the end, divide max_sum by k to get the maximum average.
+
+# Leetcode 53- Maximum Subarray 
+---
+* Approach- Kadane's algorithm
+* Time complexity-O(n)\
+ Space complexity-O(1)
