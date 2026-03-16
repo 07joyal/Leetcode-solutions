@@ -29,3 +29,8 @@ A collection of my LeetCode problem solutions written in C++. This repository do
 * Approach- Kadane's algorithm
 * Time complexity-O(n)\
  Space complexity-O(1)
+* I approached the core idea of kadane's theorm during problem solving myself-
+-  i maintained a running sum while iterating through the array.
+- Updated the maximum subarray sum whenever the running sum  was greater than the maximum sum
+- Reset the running sum to 0 whenever it becomes negative, because a negative prefix cannot contribute to a larger sum.
+
