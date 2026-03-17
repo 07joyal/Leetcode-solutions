@@ -34,3 +34,16 @@ A collection of my LeetCode problem solutions written in C++. This repository do
 - Updated the maximum subarray sum whenever the running sum  was greater than the maximum sum
 - Reset the running sum to 0 whenever it becomes negative, because a negative prefix cannot contribute to a larger sum.
 
+# Leetcode 724- Find Pivot index
+---
+* Approach- Running sum
+* Time complexity-O(n)\
+ Space complexity-O(1)
+* Approach:
+- i first computed the total sum of the array.
+- Iterated through the array while updating a left sum.
+- At each index:
+- Subtract the current element from total sum to get the right sum.
+- Compare left  and right sum.
+- If they are equal, return the current index as the pivot index.
+- Otherwise, update the left sum by adding the current element.
