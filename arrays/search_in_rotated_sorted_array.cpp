@@ -1,6 +1,13 @@
-//Binary search
-//Time complexity-O(log n)
-//Space complexity-O(1)
+// Problem: Search in Rotated Sorted Array
+// Approach:
+// - Use Binary Search to achieve O(log n) time.
+// - At each step, determine which half of the array is sorted.
+// - Check whether the target lies in the sorted half.
+// - Discard the other half and continue searching.
+//
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
+
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
