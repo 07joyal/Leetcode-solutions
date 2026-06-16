@@ -3,8 +3,7 @@
 //Time complexity-O(n)
 //Space complexity -O(1)
 //Approach- kadane's algorithm
-// Note: I derived the  core idea (tracking running sum and resetting when negative)
-// myself during problem solving ; later i learned it corresponds to Kadane's Algorithm.
+
 
 class Solution {
 public:
