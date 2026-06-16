@@ -18,7 +18,7 @@ public:
              sum=sum+nums[left];
            
              if(sum>max_sum){
-                   max_sum=sum; //updating max sum
+                   max_sum=sum; //updating maximum sum
                             }
             
             if(sum<0){
