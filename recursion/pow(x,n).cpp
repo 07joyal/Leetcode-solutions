@@ -1,7 +1,6 @@
-// Exponentiation by Squaring (Recursive)
+// Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
 // Time Complexity: O(log n)
 // Space Complexity: O(log n)  // recursion stack
-// Handles negative exponents and INT_MIN edge case
 
 class Solution {
 public:
