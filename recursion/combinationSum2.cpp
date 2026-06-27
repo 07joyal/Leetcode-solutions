@@ -1,4 +1,6 @@
-
+// TC: O(2^n) in the worst case
+// SC: O(n) recursion stack (excluding output)
+// Backtracking approach
 
 class Solution {
 public:
