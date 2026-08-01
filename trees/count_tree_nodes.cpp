@@ -1,3 +1,5 @@
+//Time Complexity: O((log n)^2)
+//Space Complexity: O(log n)
 class Solution {
 public:
 int left1(TreeNode* root){
