@@ -1,5 +1,11 @@
 //Time Complexity: O((log n)^2)
 //Space Complexity: O(log n)
+
+
+// Find the leftmost and rightmost heights of the subtree.
+// If they are equal, the subtree is perfect, so return (2^h - 1).
+// Otherwise, recursively count nodes in the left and right subtrees.
+
 class Solution {
 public:
 int left1(TreeNode* root){
