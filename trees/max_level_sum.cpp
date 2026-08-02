@@ -1,3 +1,9 @@
+// TC: O(n)
+// Each node is visited exactly once during the level order traversal.
+
+// SC: O(n)
+// Queue stores nodes of a level, and the vector stores the sum of each level.
+
 class Solution {
 public:
     int maxLevelSum(TreeNode* root) {
