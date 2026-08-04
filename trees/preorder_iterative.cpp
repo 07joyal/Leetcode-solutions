@@ -1,3 +1,6 @@
+// TC: O(n) - each node is visited once.
+// SC: O(h) , h=height
+
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
