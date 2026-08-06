@@ -9,6 +9,11 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+// Time Complexity: O(n)
+// Space Complexity: O(h)
+// n = number of nodes, h = height of tree
+
 class Solution {
 public:
 bool sum1(TreeNode* root, int targetSum,int sum,bool a, bool b){
