@@ -1,3 +1,6 @@
+// Approach: Recursive construction using preorder and inorder traversal
+// TC: O(N²) - linear search in inorder for every node
+// SC: O(H) - recursion stack
 class Solution {
 public:
 int find(int start,int end,TreeNode* x,vector<int>& inorder,int pos){
