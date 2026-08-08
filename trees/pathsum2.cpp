@@ -9,7 +9,10 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
+// Approach: DFS + Backtracking
+// TC: O(N²) worst case
+// SC: O(H) auxiliary space (excluding output)
+// SC: O(N²) including output
 class Solution {
 public:
 void soln(TreeNode* root, int targetSum,int sum,vector<int>&temp, vector<vector<int>>&ans){
